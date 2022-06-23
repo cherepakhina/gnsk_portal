@@ -1,0 +1,126 @@
+ 
+ body {
+    min-width: 630px;
+ }
+ 
+ .header .container {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "comfortaaregular", sans-serif;
+ }
+
+ .container {
+    padding-left: 200px;
+    padding-right: 200px;
+ }
+
+ .container .column {
+    position: relative;
+    float: left;
+ }
+ 
+ .center {
+    padding: 20px 20px;
+    width: 100%; 
+ }
+ 
+ .container {
+    overflow: hidden;
+ }
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'opensans-regular';*/
+    font-family: "comfortaaregular", sans-serif;
+    line-height: 1.5em;
+    background: #ffffff;
+ }
+
+ .forum_container {
+   padding: 100px;
+ }
+
+ .forumMain {
+   background: #355326;
+   margin: 10;
+   margin-right: 150;
+   padding: 50;
+   opacity: 80%;
+   
+ }
+ 
+.forum {
+   background: #355326;
+   margin: 5;
+   padding: 50;
+   height: auto;
+   display: block;
+   overflow: auto;
+   border-radius: 10px;
+}
+
+ .forumMain:hover {
+   /*transform: translateY(10px);*/
+   background: #355326;
+   opacity: 100%;
+   transition: all 0.2s ease-in-out;
+   box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+ }
+
+ .boards {
+   height: auto;
+   display: block;
+   overflow-wrap: normal;
+ }
+
+ .columnL {
+   width: 600px;
+   /*overflow-wrap: break-word;*/
+   float: left;
+   /*white-space: pre-wrap;
+   word-wrap: break-word;*/
+ }
+
+ .columnR {
+   width: 238px;
+   /*overflow-wrap: break-word;*/
+   float: right;
+   /*white-space: pre-wrap;
+   word-wrap: break-word;*/
+ }
+
+ /*h1 {
+   font-family: 'opensans-bold';
+   color: #72813ac7;
+ }*/
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "comfortaaregular";
+ }
+
+ .header {
+    font-size: large;
+    padding: 0.3em;
+    background: #355326;
+ }
+
+.bg_pic {
+   float: right;
+}
+ 
+.idk {
+   background-color: #c8dbcc;
+}
+
+footer {
+   height: 80;
+      background-color: #355326;
+      color: white;
+      text-align: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: "comfortaaregular", sans-serif;
+}
